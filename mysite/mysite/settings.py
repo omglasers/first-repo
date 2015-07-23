@@ -37,7 +37,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'polls'
+    'polls',
+    'cards'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -52,6 +53,9 @@ MIDDLEWARE_CLASSES = (
 )
 
 ROOT_URLCONF = 'mysite.urls'
+
+MEDIA_ROOT = 'uploads'
+MEDIA_URL = '/uploads/'
 
 TEMPLATES = [
     {
