@@ -1,4 +1,8 @@
-<h1>{{ card.name }}</h1>
+<h1>name:{{ card.name }}</h1>
+<h2>URL field:{{ card.url_field}}</h2>
+<h2>owner: {{ card.owner }}</h2>
+<h2>media type: {{ card.media_type }}</h2>
+<h2>created at: {{ card.created_at }}</h2>
 
 {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
 
